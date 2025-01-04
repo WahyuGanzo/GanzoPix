@@ -27,15 +27,33 @@ const categories = {
             { url: "asset/klikdisini.jpg", downloadLink: "spongebobsquarepants/cutscene/cutscene.html" }
         ]
     },
+    'meme': {
+        title: "Mentahan Meme Yang Sering Muncul",
+        images: [
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736006041/Two_guys_on_a_bus_eztvv5.png", downloadLink: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735998896/469022487_542140278632351_6796819381694030705_n_kqseal.jpg" },
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736006041/winniethepooh_rmnmnf.png", downloadLink: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735998897/469150539_543580511821661_7040675705189656914_n_lvkd4s.jpg" },
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736006041/yesno_y9p8s3.png", downloadLink: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735998896/469199601_543580478488331_419413395457256379_n_mp5vol.jpg" },
+            { url: "asset/klikdisini.jpg", downloadLink: "mentahan-meme/mentahanmeme.html" }
+        ]
+    },
+    'Upin Ipin': {
+        title: "Upin Ipin - Streaming",
+        images: [
+            { url: "https://i.ibb.co.com/z4cSNQb/image.png", downloadLink: "https://boosterx.stream/v/tLFpgYFD9nVp/" },
+            { url: "asset/lagiupload.jpg", downloadLink: "" },
+            { url: "asset/lagiupload.jpg", downloadLink: "" },
+            { url: "asset/klikdisini.jpg", downloadLink: "" }
+        ]
+    },
     'tools': {
         title: "Tools Yang Kami Pakai Dalam Pembuatan Website Ini",
         images: [
-            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736000054/html_uki1ne.png", downloadLink: "https://id.wikipedia.org/wiki/HTML" },
-            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735999882/css-3_uvvj2n.png", downloadLink: "https://id.wikipedia.org/wiki/Cascading_Style_Sheets" },
-            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735999884/javascript-39400_owumk1.png", downloadLink: "https://id.wikipedia.org/wiki/JavaScript" },
-            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735999884/Visual_Studio_Code_1.35_icon.svg_ldu3b2.png", downloadLink: "https://code.visualstudio.com/" },
-            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735999883/cloudinary-icon_rz3o6d.png", downloadLink: "https://cloudinary.com/" },
-            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735999881/brave-browser-icon_prpzdq.png", downloadLink: "https://brave.com/id/" }
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/HTML_h4trrl.png", downloadLink: "https://id.wikipedia.org/wiki/HTML" },
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/CSS_cb3npd.png", downloadLink: "https://id.wikipedia.org/wiki/Cascading_Style_Sheets" },
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/JAVASCRIPT_amohsn.png", downloadLink: "https://id.wikipedia.org/wiki/JavaScript" },
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/VISUAL_STUDIO_CODE_talvto.png", downloadLink: "https://code.visualstudio.com/" },
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/CLOUDINARY_d4tdnp.png", downloadLink: "https://cloudinary.com/" },
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/BRAVE_fmmqhs.png", downloadLink: "https://brave.com/id/" }
         ]
     }
 };
