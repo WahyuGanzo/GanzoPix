@@ -40,9 +40,9 @@ const categories = {
         title: "Upin Ipin - Streaming",
         images: [
             { url: "https://i.ibb.co.com/z4cSNQb/image.png", downloadLink: "https://boosterx.stream/v/tLFpgYFD9nVp/" },
-            { url: "asset/lagiupload.jpg", downloadLink: "" },
-            { url: "asset/lagiupload.jpg", downloadLink: "" },
-            { url: "asset/klikdisini.jpg", downloadLink: "" }
+            { url: "https://i.ibb.co.com/KKN5KSr/image.png", downloadLink: "https://boosterx.stream/v/a7iP45UqaVFY/" },
+            { url: "https://i.ibb.co.com/vQ1YGWT/image.png", downloadLink: "https://boosterx.stream/v/UY87WaFuhgNO/" },
+            { url: "asset/klikdisini.jpg", downloadLink: "upinipin-streaming/upinipin-stream.html" }
         ]
     },
     'tools': {
