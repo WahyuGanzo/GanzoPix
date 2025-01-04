@@ -12,9 +12,9 @@ const categories = {
     'spongebob': {
         title: "SpongeBob Squarepants Random Pictures",
         images: [
-            { url: "asset/lagiupload.jpg", downloadLink: "" },
-            { url: "asset/lagiupload.jpg", downloadLink: "" },
-            { url: "asset/lagiupload.jpg", downloadLink: "" },
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735990283/472172275_1006569188179253_8926181241172346008_n_yizjcj.jpg", downloadLink: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735990283/472172275_1006569188179253_8926181241172346008_n_yizjcj.jpg" },
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735990283/472137010_1006569408179231_5231463884322818643_n_tefqoz.jpg", downloadLink: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735990283/472137010_1006569408179231_5231463884322818643_n_tefqoz.jpg" },
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735990282/472106910_1006569298179242_318721468635925547_n_pthcms.jpg", downloadLink: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735990282/472106910_1006569298179242_318721468635925547_n_pthcms.jpg" },
             { url: "asset/klikdisini.jpg", downloadLink: "spongebobsquarepants/spongebobsquarepants.html" }
         ]
     }
