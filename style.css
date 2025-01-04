@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
 /* General Styles */
 * {
     margin: 0;
@@ -6,8 +8,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #000;
+    font-family: "Open Sans", sans-serif;
+    background-color: #292929;
     color: #fff;
     padding: 0;
     margin: 0;
@@ -99,13 +101,29 @@ footer {
     background-color: #111;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     nav {
-        flex-direction: column;
+        justify-content: space-between;
     }
 
     .join-discord {
         margin-top: 10px;
+    }
+
+    .gallery     {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+        padding: 20px;
+    }
+
+    #gallery-section h1 {
+        font-size: 1.2rem;
     }
 }

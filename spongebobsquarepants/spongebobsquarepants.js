@@ -4,6 +4,10 @@ const images = [
         url: "../asset/lagiupload.jpg", 
         downloadLink: ""
     },
+    {
+        url: "../asset/lagiupload.jpg", 
+        downloadLink: ""
+    },
 ];
 
 

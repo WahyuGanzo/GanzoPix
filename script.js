@@ -6,14 +6,12 @@ const categories = {
             { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735962655/470130612_1740375573469962_7928407732697499442_n_ghefb7.jpg", downloadLink: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735962655/470130612_1740375573469962_7928407732697499442_n_ghefb7.jpg" },
             { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735962654/470189870_1740375543469965_2673173767551946817_n_x8dn5f.jpg", downloadLink: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735962654/470189870_1740375543469965_2673173767551946817_n_x8dn5f.jpg" },
             { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735962654/470230946_1740375506803302_377929836373698048_n_smewtv.jpg", downloadLink: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735962654/470230946_1740375506803302_377929836373698048_n_smewtv.jpg" },
-            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735962654/470148484_1740375696803283_2244551618614417898_n_gbp7y4.jpg", downloadLink: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1735962654/470148484_1740375696803283_2244551618614417898_n_gbp7y4.jpg" },
             { url: "asset/klikdisini.jpg", downloadLink: "upinipin/upinipin.html" }
         ]
     },
     'spongebob': {
-        title: "Spongebob Random Pictures",
+        title: "SpongeBob Squarepants Random Pictures",
         images: [
-            { url: "asset/lagiupload.jpg", downloadLink: "" },
             { url: "asset/lagiupload.jpg", downloadLink: "" },
             { url: "asset/lagiupload.jpg", downloadLink: "" },
             { url: "asset/lagiupload.jpg", downloadLink: "" },
