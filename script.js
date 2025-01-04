@@ -17,7 +17,7 @@ const categories = {
             { url: "asset/lagiupload.jpg", downloadLink: "" },
             { url: "asset/lagiupload.jpg", downloadLink: "" },
             { url: "asset/lagiupload.jpg", downloadLink: "" },
-            { url: "asset/klikdisini.jpg", downloadLink: "" }
+            { url: "asset/klikdisini.jpg", downloadLink: "spongebobsquarepants/spongebobsquarepants.html" }
         ]
     }
 };
