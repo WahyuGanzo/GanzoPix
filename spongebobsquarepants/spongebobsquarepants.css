@@ -93,6 +93,15 @@ nav .logo a {
     object-fit: cover;
 }
 
+/* POWERED */
+#powered {
+    text-align: center;
+}
+
+#powered a img {
+    width: 200px;
+}
+
 
 /* Footer */
 footer {
