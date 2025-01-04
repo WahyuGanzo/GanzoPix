@@ -512,7 +512,7 @@ const images = [
 
 
 
-// Function to create image cards - Spongebob Squarepants
+// Function to create image cards - Upin Ipin
 function createImageCards() {
     const gallery = document.getElementById('upinipin');
     
