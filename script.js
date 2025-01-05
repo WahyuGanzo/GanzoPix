@@ -53,7 +53,9 @@ const categories = {
             { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/JAVASCRIPT_amohsn.png", downloadLink: "https://id.wikipedia.org/wiki/JavaScript" },
             { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/VISUAL_STUDIO_CODE_talvto.png", downloadLink: "https://code.visualstudio.com/" },
             { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/CLOUDINARY_d4tdnp.png", downloadLink: "https://cloudinary.com/" },
-            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/BRAVE_fmmqhs.png", downloadLink: "https://brave.com/id/" }
+            { url: "https://res.cloudinary.com/dynq3ybyz/image/upload/v1736004195/BRAVE_fmmqhs.png", downloadLink: "https://brave.com/id/" },
+            { url: "https://i.ibb.co.com/3k4PTF5/Img-BB-removebg-preview.png", downloadLink: "httos://imgbb.com" },
+            { url: "https://i.ibb.co.com/xYNMVm1/online-streaming.png", downloadLink: "https://playerx.stream/" }
         ]
     }
 };
