@@ -45,6 +45,15 @@ const categories = {
             { url: "asset/klikdisini.jpg", downloadLink: "upinipin-streaming/upinipin-stream.html" }
         ]
     },
+    'Kucing Random Part 1': {
+        title: "Random Cat Pictures - Part 1",
+        images: [
+            { url: "https://i.ibb.co.com/vhN12Ps/Snapinsta-app-471884130-1246925949870356-7356310521446626369-n-1080.jpg", downloadLink: "https://i.ibb.co.com/vhN12Ps/Snapinsta-app-471884130-1246925949870356-7356310521446626369-n-1080.jpg" },
+            { url: "https://i.ibb.co.com/P12qQ2z/Snapinsta-app-471882554-1165078038513877-6391097696844465263-n-1080.jpg", downloadLink: "https://i.ibb.co.com/P12qQ2z/Snapinsta-app-471882554-1165078038513877-6391097696844465263-n-1080.jpg" },
+            { url: "https://i.ibb.co.com/FhcPv1b/Snapinsta-app-471870894-1104568057529911-8896403000202569915-n-1080.jpg", downloadLink: "https://i.ibb.co.com/FhcPv1b/Snapinsta-app-471870894-1104568057529911-8896403000202569915-n-1080.jpg" },
+            { url: "asset/klikdisini.jpg", downloadLink: "kucing/randomcatpart1/random1.html" },
+        ]
+    },
     'tools': {
         title: "Tools Yang Kami Pakai Dalam Pembuatan Website Ini",
         images: [

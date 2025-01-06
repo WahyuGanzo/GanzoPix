@@ -1,0 +1,184 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #292929;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .join-discord {
+    color: #fff;
+    background-color: #7289da;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav .join-discord {
+    color: #fff;
+    background-color: #7289da;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    animation: getar;
+    -webkit-animation: getar 2s infinite;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@keyframes getar {
+    0% { transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); }
+    10% { transform: scale(1.1); -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); }
+    20% { transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); }
+    30% { transform: scale(1.1); -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); }
+    100% { transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); }
+}
+
+nav.join-discord:hover {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.namakategori {
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Gallery */
+.random1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.random1 .card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 100%;
+    /*Aspectratio1:1 */;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.random1 .card:hover{
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    cursor: pointer;
+}
+
+.random1 .card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.internet {
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    background-color: red;
+    animation: chngeColor 2s infinite;
+    -webkit-animation: chngeColor 2s infinite;
+}
+
+@keyframes chngeColor {
+    0% { background-color: #ff0000;}
+    20% { background-color: #ffff00;}
+    40% { background-color: #00ff00;}
+    0% { background-color: #0000ff;}
+    0% { background-color: #ff00ff;}
+    0% { background-color: #ff0000;}
+}
+
+/* POWERED */
+#powered {
+    text-align: center;
+}
+
+#powered a img {
+    width: 100px;
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        justify-content: space-between;
+    }
+
+    .join-discord {
+        margin-top: 10px;
+    }
+
+    .random1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .internet {
+        font-size: 1.2rem;
+    }
+}
