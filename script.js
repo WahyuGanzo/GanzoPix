@@ -54,6 +54,15 @@ const categories = {
             { url: "asset/klikdisini.jpg", downloadLink: "kucing/randomcatpart1/random1.html" },
         ]
     },
+    'Minecraft Out Of Contect Part 1': {
+        title: "Minecraft Out Of Contect - Part 1",
+        images: [
+            { url: "asset/lagiupload.jpg", downloadLink: "" },
+            { url: "asset/lagiupload.jpg", downloadLink: "" },
+            { url: "asset/lagiupload.jpg", downloadLink: "" },
+            { url: "asset/klikdisini.jpg", downloadLink: "minecraft/minecraftoutofcontectpart1/outofcontect1.html" },
+        ]
+    },
     'tools': {
         title: "Tools Yang Kami Pakai Dalam Pembuatan Website Ini",
         images: [
